@@ -1,0 +1,32 @@
+/* reset */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Bowlby One SC', cursive; */
+}
+
+/* Logo Design */
+#logo {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 3rem;
+}
+#logo::after {
+  content: "(Helio)";
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  display: block;
+  position: relative;
+  bottom: 15px;
+  left: 3px;
+  letter-spacing: 0.4rem;
+  color: rgba(0,0,0,0.5);
+}
+
+/* Navigation bar Design */
+header {
+  text-align: center;
+}
