@@ -1,32 +1,41 @@
 /* reset */
 body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  /* font-family: 'Bowlby One SC', cursive; */
 }
 
-/* Logo Design */
-#logo {
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  font-family: 'Bowlby One SC', cursive;
-  font-size: 3rem;
-}
-#logo::after {
-  content: "(Helio)";
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 300;
-  display: block;
-  position: relative;
-  bottom: 15px;
-  left: 3px;
-  letter-spacing: 0.4rem;
-  color: rgba(0,0,0,0.5);
+/* font-family: 'Roboto', sans-serif; */
+/* header design */
+.logo {
+  height: 70px;
 }
 
-/* Navigation bar Design */
-header {
-  text-align: center;
+/* banner design */
+.banner {
+  font-size: 4rem;
+  font-weight: 900;
+}
+/* portfolio design */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio .showcases {
+  margin-right: 20px;
+}
+/* footer design */
+footer {
+  height:70px;
+  display: flex;
+  background-color: lightgreen;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  flex: 1;
+}
+footer ul li {
+  padding-right: 20px;
 }
