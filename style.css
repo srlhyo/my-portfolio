@@ -16,20 +16,70 @@ nav {
 }
 nav ul {
   display: flex;
-  flex-basis: 30%;
+  flex-basis: 35%;
   justify-content: space-between;
 }
 nav ul li {
   list-style: none;
+  text-transform: uppercase;
 }
 .logo {
   height: 60px;
 }
 
-/* banner design */
+/* INFO SECTION banner design */
+.info {
+  display: flex;
+  margin:  80px 50px 0 50px;
+  height: 100vh;
+}
 .banner {
-  font-size: 4rem;
+  padding-top: 20px;
+  text-align: center;
+  flex: 2;
+}
+.banner h1 {
+  font-size: 7rem;
   font-weight: 900;
+  text-align: center;
+  display: inline;
+/*   margin: 0; */
+}
+.banner h1::before {
+  content:"I AM";
+  vertical-align: top;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: inline-block;
+  background-color: #e82121;
+  color: #e6c1d0;
+  margin-right: 5px;
+  padding: 1px 5px;
+  transform: rotate(-30deg);
+}
+.banner span {
+  display: block;
+/*   position: relative;
+  bottom: 15px; */
+  font-size: 4rem;
+  font-weight: 400;
+  color: gray;
+}
+/* INFO SECTION card-info design */
+.card {
+  flex: 1;
+}
+.card img {
+  width: 85px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: #cccccc 0px 0px 7px 2px;;
+}
+.bio {
+  text-align: justify;
+  line-height: 1.5;
+  color:#2d2d2d;
 }
 /* portfolio design */
 .portfolio {
@@ -53,4 +103,5 @@ footer ul {
 footer ul li {
   display: inline-block;
   padding-right: 20px;
+  transform: uppercase;
 }
