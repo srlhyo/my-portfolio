@@ -7,8 +7,9 @@ body {
 
 /* header design */
 header {
+/*   background-color: white; */
   padding: 20px 50px;
-  box-shadow: lightgray 1px 1px 5px;
+  box-shadow: lightgrey 0 0 8px 0;
 }
 nav {
   display: flex;
@@ -30,7 +31,10 @@ nav ul li {
 /* INFO SECTION banner design */
 .info {
   display: flex;
-  margin:  80px 50px 0 50px;
+  flex-wrap: wrap;
+  margin-top: 3px;
+  background-color: #fbfbfb;
+  padding:  80px 50px 0 50px;
   height: 100vh;
 }
 .banner {
@@ -83,16 +87,25 @@ nav ul li {
 }
 /* portfolio design */
 .portfolio {
+  padding:  80px 50px 0 50px;
+/*   height: 100vh;
+  overflow: auto; */
+}
+.portfolio h2 {
+/*   margin-top: 0; */
+}
+.portfolio .showcase {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
-.portfolio .showcases {
-  margin-right: 20px;
+.portfolio .showcase .showcase-grid {
+  
 }
 /* footer design */
 footer {
   height:70px;
+/*   margin-top: 5px; */
   display: flex;
   background-color: lightgreen;
   align-items: center;
